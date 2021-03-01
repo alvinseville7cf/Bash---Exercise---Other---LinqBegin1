@@ -23,7 +23,7 @@ function randomSequence()
 
   for (( i = 0; i < count; i++ ))
   do
-    echo -n "$(random "$low" "$high")"
+    echo -n "$(random "$low" "$high") "
   done
   echo
 }
